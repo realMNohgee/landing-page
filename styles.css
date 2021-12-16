@@ -23,15 +23,13 @@ body {
 ul {
     display: flex;
     margin: 0;
-    padding: 0 16px;
+    padding-right: inherit;
     list-style-type: none;
+    background-position: 100%;
     text-align: right;
   }
 
-li {
-  padding-right: .6em;
-  background-position: 100% .4em;
-}  
+
 
   .image {
     background-color: grey;
