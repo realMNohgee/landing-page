@@ -110,13 +110,23 @@ ul {
     color: #3882F6;
   }
 
+  .section-four {
+    position: relative;
+    min-height: 10vh
+  }
+
+  .call-container {
+    padding-bottom: 2.5rem;
+  }
+
   .footer {
     display: flex;
-    flex-direction: column;
     color: #F9FAF8;
     background-color: #1f2937;
-    position: relative;
-    height: 50px;
     justify-content: center;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
   }
