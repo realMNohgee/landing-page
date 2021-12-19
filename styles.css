@@ -5,6 +5,10 @@ body {
     font-family: Hero, sans-serif;
 }
 
+* {
+  border: red solid 1px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -17,7 +21,13 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 210px;
+    margin-right: 390px;
+}
+
+.logo {
+  display: Flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
 }
 
 ul {
